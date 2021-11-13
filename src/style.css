@@ -1,0 +1,46 @@
+/* Font imports */
+@font-face {
+    font-family: Voyager Heavy;
+    src: url(./voyager/Webfonts/Voyager\ Heavy\ Webfont.woff);
+}
+
+
+
+
+/* Styling */
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    font-family: 'Voyager Heavy';
+}
+
+.header {
+    width: 100%;
+    height: 115px;
+    align-items: center;
+    margin-top: 0px;
+    display: flex;
+    box-shadow: 0px 5px 25px black;
+    background-color: aliceblue;
+}
+.title {
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.photo {
+    width: 500px;
+
+}

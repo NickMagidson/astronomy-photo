@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './Header';
+import './style.css';
 
 //V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
 
@@ -32,7 +34,10 @@ class App extends React.Component {
   render() {
     return(
       <div className="app">
-       <img src={this.state.photo} />
+        <Header />
+        <div className="photo-container">
+          <img src={this.state.photo} className="photo" />
+        </div>
       </div>
     )
   }
