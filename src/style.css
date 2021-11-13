@@ -4,7 +4,6 @@
     src: url(./voyager/Webfonts/Voyager\ Heavy\ Webfont.woff);
 }
 
-/* Styling */
 body {
     margin:0;
     padding:0;
@@ -14,6 +13,8 @@ body {
     background-color: aliceblue;
 }
 
+
+/* HEADER */
 .header {
     width: 100%;
     height: 115px;
@@ -31,18 +32,19 @@ body {
     letter-spacing: 2px;
 }
 
-.app {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-}
+/* .app {
 
+} */
+
+
+/* MAIN CONTENT */
 .main {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+/* PHOTO CONTENT */
 .photo-container {
     display: flex;
     flex-direction: column;
@@ -57,12 +59,11 @@ body {
 
 }
 
-
+/* INFO CONTENT */
 .info-container {
     padding-top: 20px;
     width: 750px;
 }
-
 
 .info-title {
     color: black;
