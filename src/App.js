@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Info from './Info';
 import './style.css';
 
 //V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
@@ -35,8 +36,13 @@ class App extends React.Component {
     return(
       <div className="app">
         <Header />
-        <div className="photo-container">
-          <img src={this.state.photo} className="photo" />
+        <div className="main">
+          <div className="info-container">
+            <Info />
+          </div>
+          <div className="photo-container">
+            <img src={this.state.photo} className="photo" />
+          </div>
         </div>
       </div>
     )
