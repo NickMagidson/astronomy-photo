@@ -2,8 +2,9 @@ import React from 'react';
 import Header from './Header';
 import Info from './Info';
 import './style.css';
+import video from './video 1.mp4';
 
-//V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
+// V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
 
 // https://api.nasa.gov/planetary/apod?api_key=V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
 
@@ -37,6 +38,9 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <div className="main">
+        <video autoPlay loop muted id="video">
+          <source src={video} type='video/mp4'></source>
+        </video>
           <div className="info-container">
             <Info />
           </div>
