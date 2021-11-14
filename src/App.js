@@ -38,14 +38,14 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <div className="main">
-        <video autoPlay loop muted id="video">
+        <video className="bgVideo" autoPlay loop muted id="video">
           <source src={video} type='video/mp4'></source>
         </video>
           <div className="info-container">
             <Info />
           </div>
           <div className="photo-container">
-            <img src={this.state.photo} className="photo" />
+            <img src={this.state.photo} className="photo" alt="Astronomy Picture of the" />
           </div>
         </div>
       </div>
