@@ -124,7 +124,7 @@ body {
     }
 
     .info-container {
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .info-title {
@@ -145,5 +145,71 @@ body {
     .photo-container {
         margin-top: 20px;
         justify-content: center;
+    }
+}
+
+@media all and (max-width: 1156px) {
+    .title {
+        font-size: 1.1em;
+        margin-left: 20px;
+    }
+
+    .info-container {
+        margin-top: 5px;
+        margin-left: 25px;
+    }
+
+    .info-title {
+        color: white;
+        font-size: 2.2rem;
+        margin-left: 35px;
+    } 
+
+
+    .description {
+        width: 30rem;
+        font-size: .9rem;
+    }
+
+    .photo-container {
+        margin-right: 80px;
+        margin-top: 80px;
+    }
+
+    .photo {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .title {
+        font-size: 1.1em;
+        margin-left: 20px;
+    }
+
+    .info-container {
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+
+    .info-title {
+        color: white;
+        font-size: 1.8rem;
+        padding-right: 20px;
+        margin-left: 35px;
+    } 
+
+    .description {
+        width: 28rem;
+        font-size: .8rem;
+    }
+
+    .photo-container {
+        margin-right: 180px;
+        margin-top: 80px;
+    }
+
+    .photo {
+        width: 300px;
     }
 }
