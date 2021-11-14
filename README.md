@@ -5,7 +5,7 @@
 Built in React.js using a NASA API. App displays a new astronomy picture everyday.
 
 
-<a src="https://nickmagidson.github.io/astronomy-photo/"><h4>Live Preview</h4></a>
+<a href="https://nickmagidson.github.io/astronomy-photo/"><h4>Live Preview</h4></a>
 
 ### `cd astronomy-photo`
 
