@@ -57,6 +57,7 @@ body {
     position: fixed;
     z-index: -1;
     width: 100%;
+    filter: brightness(95%);
 }
 
 /* PHOTO CONTENT */
@@ -67,11 +68,11 @@ body {
     margin: 0;
     margin-top: 100px;
     width: 600px;
-
+    /* filter: drop-shadow(2px 2px 10px #000000) */
 }
 
 .photo {
-    width: 500px;
+    width: 450px;
 
 }
 
