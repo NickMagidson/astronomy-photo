@@ -14,15 +14,7 @@ class App extends React.Component {
   constructor(props) {
     super(props)
 
-
   };
-
-
-
-
-  // variable for this.state.photo
-  // window.open (var, )
-
 
   render() {
     return(
@@ -38,7 +30,6 @@ class App extends React.Component {
       </div>
     )
   }
-
 }
 
 export default App;
