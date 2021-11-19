@@ -25,12 +25,17 @@ class App extends React.Component {
       .then(response => response.json())
       .then(content => {
         this.setState({
-          photo: content.url
+          photo: content.hdurl
         })
 
       })
     console.log(url)
   }
+
+
+
+  // variable for this.state.photo
+  // window.open (var, )
 
 
   render() {
@@ -45,7 +50,7 @@ class App extends React.Component {
             <Info />
           </div>
           <div className="photo-container">
-            <img src={this.state.photo} className="photo" alt="Astronomy Picture of the" />
+            <a href={this.state.photo} target="_blank"><img src={this.state.photo} className="photo" alt="Astronomy Picture of the" /></a>
           </div>
         </div>
       </div>
