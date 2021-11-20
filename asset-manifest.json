@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/astronomy-photo/static/css/main.450c0591.chunk.css",
-    "main.js": "/astronomy-photo/static/js/main.91719b7e.chunk.js",
-    "main.js.map": "/astronomy-photo/static/js/main.91719b7e.chunk.js.map",
+    "main.css": "/astronomy-photo/static/css/main.b9643a51.chunk.css",
+    "main.js": "/astronomy-photo/static/js/main.752d5095.chunk.js",
+    "main.js.map": "/astronomy-photo/static/js/main.752d5095.chunk.js.map",
     "runtime-main.js": "/astronomy-photo/static/js/runtime-main.a6f464a4.js",
     "runtime-main.js.map": "/astronomy-photo/static/js/runtime-main.a6f464a4.js.map",
-    "static/js/2.73f400f7.chunk.js": "/astronomy-photo/static/js/2.73f400f7.chunk.js",
-    "static/js/2.73f400f7.chunk.js.map": "/astronomy-photo/static/js/2.73f400f7.chunk.js.map",
+    "static/js/2.e9fccfc5.chunk.js": "/astronomy-photo/static/js/2.e9fccfc5.chunk.js",
+    "static/js/2.e9fccfc5.chunk.js.map": "/astronomy-photo/static/js/2.e9fccfc5.chunk.js.map",
     "index.html": "/astronomy-photo/index.html",
-    "static/css/main.450c0591.chunk.css.map": "/astronomy-photo/static/css/main.450c0591.chunk.css.map",
-    "static/js/2.73f400f7.chunk.js.LICENSE.txt": "/astronomy-photo/static/js/2.73f400f7.chunk.js.LICENSE.txt",
+    "static/css/main.b9643a51.chunk.css.map": "/astronomy-photo/static/css/main.b9643a51.chunk.css.map",
+    "static/js/2.e9fccfc5.chunk.js.LICENSE.txt": "/astronomy-photo/static/js/2.e9fccfc5.chunk.js.LICENSE.txt",
     "static/media/style.css": "/astronomy-photo/static/media/Voyager Light Webfont.873d6860.woff",
     "static/media/video 1.9e52937b.mp4": "/astronomy-photo/static/media/video 1.9e52937b.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.a6f464a4.js",
-    "static/js/2.73f400f7.chunk.js",
-    "static/css/main.450c0591.chunk.css",
-    "static/js/main.91719b7e.chunk.js"
+    "static/js/2.e9fccfc5.chunk.js",
+    "static/css/main.b9643a51.chunk.css",
+    "static/js/main.752d5095.chunk.js"
   ]
 }
