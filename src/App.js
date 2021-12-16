@@ -5,9 +5,8 @@ import Photo from './Photo';
 import './style.css';
 import video from './video 1.mp4';
 
-// V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
-
-// https://api.nasa.gov/planetary/apod?api_key=V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8
+const API_KEY = 'V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8';
+const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 
 
 class App extends React.Component {
