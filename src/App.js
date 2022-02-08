@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './Header';
-import Info from './Info';
+// import Info from './Info';
 import Photo from './Photo';
-import './style.css';
+// import './style.css';
+import './style2.css';
 import video from './video 1.mp4';
 
 
@@ -20,8 +21,8 @@ class App extends React.Component {
           <video className="bgVideo" autoPlay loop muted id="video">
             <source src={video} type='video/mp4'></source>
           </video>
-          <Info />
           <Photo />
+          {/* <Info /> */}
         </main>
       </div>
     )

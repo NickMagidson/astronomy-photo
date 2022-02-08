@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './style.css'
+import './style2.css'
 
 const API_KEY = 'V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8';
 const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
