@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-// import Info from './Info';
+import Info from './Info';
 import Photo from './Photo';
 // import './style.css';
 import './style2.css';
@@ -18,11 +18,11 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <main className="main">
-          <video className="bgVideo" autoPlay loop muted id="video">
+          {/* <video className="bgVideo" autoPlay loop muted id="video">
             <source src={video} type='video/mp4'></source>
-          </video>
+          </video> */}
           <Photo />
-          {/* <Info /> */}
+          <Info />
         </main>
       </div>
     )
