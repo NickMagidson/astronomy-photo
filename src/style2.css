@@ -118,8 +118,8 @@ html, body {
     }
 
     .info-container {
-        margin-top: 20px;
-        margin-left: 30px;
+        margin: auto;
+        padding: 27px;
     }
 
     .description {
@@ -146,13 +146,19 @@ html, body {
         line-height: 1.3rem;
     }
 
+    .photo-container {
+        max-height: 400px;
+        margin-top: 90px;
+    }
+
     .photo {
         max-height: 400px;
     }
 
     .info-container {
-        margin-left: 35px;
+        margin: auto;
         max-width: 100%;
+        padding: 45px;
     }
 
     .info-title {
@@ -170,5 +176,19 @@ html, body {
 
 /* Desktop Styles */
 @media screen and (min-width: 1200px) {
-    
+
+    .info-container {
+        padding: 56px;
+        margin: auto;
+    }
+
+    .description {
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
 }
+
+/* @media screen and (min-width: 1920px) {
+
+} */
