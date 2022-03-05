@@ -16,6 +16,7 @@ html, body {
 /* HEADER */
 .header {
     max-width: 100%;
+    width: 100%;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -50,12 +51,12 @@ html, body {
     background-color: rgb(199, 199, 199);
 }
 
-#video {
+/* #video {
     position: fixed;
-    z-index: 0;
+    z-index: -1;
     max-width: 100%;
     filter: brightness(95%);
-}
+} */
 
 /* PHOTO CONTENT */
 .photo-container {
@@ -69,7 +70,7 @@ html, body {
 
 .photo {
     align-items: flex-start;
-    max-height: 250px;
+    max-height: 150px;
     border: 3px solid black;
 }
 
@@ -78,15 +79,16 @@ html, body {
     max-width: 750px;
     margin-left: 10px;
     margin-bottom: auto;
+    margin-top: 40px;
 }
 
 /* .info-title {
 
-}
+} */
 
 .date {
-
-} */
+    margin-bottom: 50px;
+}
 
 .description {
     font-family: sans-serif;
@@ -114,7 +116,7 @@ html, body {
     }
 
     .photo {
-        max-height: 300px;
+        max-height: 250px;
     }
 
     .info-container {
@@ -192,10 +194,23 @@ html, body {
 
     .photo-container {
         margin-bottom: 20px;
-        border: #000000 1px solid;
+        border: #000000 1px solid; /* Border may be temporary */
         padding: 4%;
         margin-top: auto;
+        max-width: 100%;
+        max-height: 100%;
     }
+
+    /* BG Video hidden temporarily */
+    /* #video {
+        z-index: -1;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        filter: brightness(75%);
+    } */
 
     .photo {
         max-height: 500px;
