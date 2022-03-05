@@ -28,9 +28,9 @@ class Photo extends Component {
     return(
       <div className="photo-container">
         <a href={this.state.photo} target="_blank"><img src={this.state.photo} className="photo" alt="Astronomy Picture of the" /></a>
-          <video className="bgVideo" autoPlay loop muted id="video">
+          {/* <video className="bgVideo" autoPlay loop muted id="video">
             <source src={video} type='video/mp4'></source>
-          </video>
+          </video> */}
       </div>
     )
   }

@@ -58,7 +58,7 @@ html, body {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    filter: brightness(65%);
+    filter: brightness(35%);
 }
 
 
@@ -197,10 +197,16 @@ html, body {
 
 @media screen and (min-width: 1920px) {
 
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1%;
+    }
+
     .photo-container {
-        margin-bottom: 20px;
         border: #000000 1px solid; /* Border may be temporary */
-        padding: 4%;
         margin-top: auto;
         max-width: 100%;
         max-height: 100%;
@@ -217,8 +223,18 @@ html, body {
         filter: brightness(65%);
     }
 
+    .photo-container {
+        padding: none;
+        border: none;
+    }
+
     .photo {
-        max-height: 500px;
+        max-height: 350px;
+    }
+    
+    .info-container {
+        padding: none;
+        margin-top: 150px;
     }
 
     .info-title {
@@ -227,6 +243,7 @@ html, body {
 
     .description {
         padding-right: 20%;
+        line-height: 1.5;
     }
 
 }   
