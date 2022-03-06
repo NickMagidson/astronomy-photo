@@ -30,6 +30,7 @@ html, body {
 }
 
 .title {
+    z-index: 3;
     padding-right: 140px;
     margin: auto;
     margin-left: 20px;
@@ -52,14 +53,15 @@ html, body {
 }
 
 #video {
-    z-index: -1;
+    z-index: 0;
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    filter: brightness(35%);
+    filter: brightness(65%);
 }
+
 
 
 /* PHOTO CONTENT */
@@ -74,33 +76,44 @@ html, body {
 }
 
 .photo {
+    z-index: 1;
     align-items: flex-start;
-    max-height: 150px;
+    max-height: 180px;
     border: 3px solid black;
 }
 
 /* INFO CONTENT */
 .info-container {
+    z-index: 1;
     max-width: 750px;
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-bottom: auto;
-    margin-top: 40px;
+    margin-top: 40px; */
+    margin: auto;
+    color: aliceblue;
 }
 
-/* .info-title {
-
-} */
+.info-title {
+    text-align: center;
+    letter-spacing: 1px;
+}
 
 .date {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    margin-left: 10px;
 }
 
 .description {
     font-family: sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-    letter-spacing: .6px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: .9px;
     padding-right: 10px;
+    margin-left: 10px;
+
+    background-color: rgba(5, 4, 4, 0.377);
+    /* backdrop-filter: blur(5px); */
+    filter: drop-shadow(8px 10px 4px #000000)
 }
 
 
@@ -125,6 +138,7 @@ html, body {
     }
 
     .info-container {
+        z-index: 1;
         margin: auto;
         padding: 27px;
     }
@@ -132,6 +146,16 @@ html, body {
     .description {
         padding: 20px;
         font-size: 15px;
+    }
+
+    #video {
+        z-index: 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        filter: brightness(65%);
     }
 }
 
@@ -162,6 +186,7 @@ html, body {
     }
 
     .info-container {
+        z-index: 1;
         margin: auto;
         max-width: 100%;
         padding: 45px;
@@ -178,12 +203,23 @@ html, body {
         padding-right: 10%;
         font-size: 1em;
     }
+
+    #video {
+        z-index: 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        filter: brightness(65%);
+    }
 }
 
 /* Desktop Styles */
 @media screen and (min-width: 1200px) {
 
     .info-container {
+        z-index: 1;
         padding: 56px;
         margin: auto;
     }
@@ -191,6 +227,16 @@ html, body {
     .description {
         font-size: 1.1em;
         line-height: 1.5;
+    }
+
+    #video {
+        z-index: 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        filter: brightness(65%);
     }
 
 }
@@ -214,7 +260,7 @@ html, body {
 
     /* BG Video hidden temporarily */
     #video {
-        z-index: -1;
+        z-index: 0;
         position: fixed;
         right: 0;
         bottom: 0;
@@ -226,6 +272,7 @@ html, body {
     .photo-container {
         padding: none;
         border: none;
+        margin-left: 10%;
     }
 
     .photo {
@@ -233,17 +280,27 @@ html, body {
     }
     
     .info-container {
+        z-index: 2;
         padding: none;
         margin-top: 150px;
+        margin-right: auto;
+        margin-left: 10%;
     }
 
     .info-title {
         font-size: 2.1em;
+        z-index: 2;
     }
 
     .description {
+        z-index: 2;
         padding-right: 20%;
         line-height: 1.5;
+        font-size: 1em;
+
+        background-color: rgba(5, 4, 4, 0.377);
+        backdrop-filter: blur(5px);
+        filter: drop-shadow(8px 10px 4px #000000)
     }
 
 }   

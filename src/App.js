@@ -18,9 +18,9 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <main className="main">
-          {/* <video className="bgVideo" autoPlay loop muted id="video">
+          <video className="bgVideo" autoPlay loop muted id="video">
             <source src={video} type='video/mp4'></source>
-          </video> */}
+          </video>
           <Photo />
           <Info />
         </main>
