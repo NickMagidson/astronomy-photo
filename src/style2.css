@@ -366,6 +366,7 @@ html, body {
     .photo-container {
         border: #000000 1px solid; /* Border may be temporary */
         margin-top: auto;
+        margin-right: auto;
         max-width: 100%;
         max-height: 100%;
     }
