@@ -12,7 +12,7 @@ This project uses NASA's APOD API to render a different image, description, titl
 
 ### Dependencies
 
-* react / react-DOM
+* react / react-dom
 * gh-pages
 
 ### Executing program
