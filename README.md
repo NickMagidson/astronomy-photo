@@ -1,12 +1,27 @@
-<h1>Astronomy Photo of the Day</h1>
+# Astronomy Photo of the Day
 
-<h3>Summary:</h3>
+Displays a different astronomy related picture everyday.
 
-Built in React.js using a NASA API. App displays a new astronomy picture everyday.
+## Description
 
+This project uses NASA's APOD API to render a different image, description, title, and date everyday. Based off of the original version [here](https://apod.nasa.gov/apod/astropix.html).
 
-<a href="https://nickmagidson.github.io/astronomy-photo/"><h4>Live Preview</h4></a>
+## Getting Started
 
-### `cd astronomy-photo`
+### Dependencies
 
-### `npm start`
+* react / react-DOM
+* gh-pages
+
+### Executing program
+```
+cd astronomy-photo
+```
+
+```
+npm install
+```
+
+```
+npm start
+```
