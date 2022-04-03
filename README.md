@@ -1,6 +1,7 @@
 # Astronomy Photo of the Day
 
 Displays a different astronomy related picture everyday.
+[Live Preview](https://nickmagidson.github.io/astronomy-photo/)
 
 ## Description
 
