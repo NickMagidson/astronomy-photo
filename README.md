@@ -1,3 +1,4 @@
+![app image](https://uploads-ssl.webflow.com/62217972aee8587e39e1b254/622f4578ded34b45e0d903e6_New%20Astro.PNG)
 # Astronomy Photo of the Day
 
 Displays a different astronomy related picture everyday.
