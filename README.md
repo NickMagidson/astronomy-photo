@@ -18,9 +18,6 @@ This project uses NASA's APOD API to render a different image, description, titl
 ### Executing program
 ```
 cd astronomy-photo
-```
-
-```
 npm install
 ```
 
