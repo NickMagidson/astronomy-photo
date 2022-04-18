@@ -16,7 +16,7 @@ function Photo() {
 
   return (
     <div className="photo-container">
-      <a href={photo} target="_blank"><img src={photo} className="photo" alt="Astronomy Picture of the" /></a>
+      <a href={photo} target="_blank" rel="noreferrer"><img src={photo} className="photo" alt="Astronomy Picture of the day" /></a>
     </div>
   )
 }
