@@ -116,9 +116,28 @@ html, body {
     filter: drop-shadow(8px 10px 4px #000000)
 }
 
+.react-datepicker-wrapper {
+    z-index: 5;
+}
+
+.react-datepicker-popper {
+    z-index: 5;
+}
+
+.react-datepicker-popper {
+    z-index: 5;
+}
+
+.react-datepicker__month-container {
+    z-index: 5;
+}
+
 .date-picker {
     display: none;
+    z-index: 5;
 }
+
+
 
 
 
@@ -234,6 +253,7 @@ html, body {
     .react-datepicker-wrapper {
         width: 10%;
         margin-right: 200px;
+        z-index: 5;
     }
 
     .date-picker {
@@ -437,7 +457,7 @@ html, body {
     }
     
     .info-container {
-        z-index: 2;
+        z-index: 1;
         padding: none;
         margin-top: 80px;
         margin-right: auto;
@@ -477,5 +497,10 @@ html, body {
         display: flex;
         margin-left: auto;
     }
+
+    .react-datepicker-popper {
+        z-index: 5;
+    }
+
 
 }   
