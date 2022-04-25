@@ -4,16 +4,18 @@ import Photo from "./Photo";
 
 import moment from 'moment';
 
-
+// Edits on this component are still in progress
 class Header extends Component {
-	constructor(props) {
-		super(props)
-	}
-
 	state = {
 		date: moment(),
 		photo: <Photo />
 	}
+
+	getPhoto = date => {
+    fetch(`https://api.nasa.gov/planetary/apod?date=${date}&api_key=DEMO_KEY`)
+      .then(response => response.json())
+      .then(photoData => this.setState({ photo: photoData }));
+  };
 
 	formatDate = moment => {
 		let year = moment.year;
@@ -21,7 +23,6 @@ class Header extends Component {
 		let day = moment.date;
 		return `${year}-${month}-${day}`;
 	}
-
 
 	changeDate = dateFromInput => {
 		this.setState({ date: dateFromInput });

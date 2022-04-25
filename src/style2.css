@@ -242,6 +242,10 @@ html, body {
         margin-right: auto;
     }
 
+    .datepicker-title {
+        color: aliceblue;
+    }
+
 }
 
 /* Desktop Styles */
@@ -348,7 +352,7 @@ html, body {
     }
     
     .info-container {
-        z-index: 2;
+        z-index: 1;
         padding: none;
         margin-top: 80px;
         margin-right: auto;
@@ -437,7 +441,7 @@ html, body {
     }
     
     .info-container {
-        z-index: 2;
+        z-index: 1;
         padding: none;
         margin-top: 80px;
         margin-right: auto;
@@ -471,6 +475,7 @@ html, body {
     .react-datepicker-wrapper {
         width: 10%;
         margin-right: 200px;
+        z-index: 5;
     }
 
     .date-picker {
