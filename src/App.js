@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
 import Info from './Info';
 import Photo from './Photo';
@@ -6,11 +6,12 @@ import './style2.css';
 import video from './video 1.mp4';
 
 
-// State and stuff goes here...
+// Refactor
 
-// 1. Header JSX in lieu of component in App(). Also <DateInput />
-// 2. Main will have <video> & <Info />
-// 3. Make sure styling and fetching are properlly working
+// 1. Make sure the Datepicker component is fine (done)
+// 2. Photo component wont have data fetching code. Only render stuff
+// 3. Merge Photo and Info. Again, no fetching.
+// 4. App() will be a class component with, state, fetching and Datepicker methods
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <video className="bgVideo" autoPlay loop muted id="video">
           <source src={video} type='video/mp4'></source>
         </video>
+        
         <Photo />
         <Info />
       </main>

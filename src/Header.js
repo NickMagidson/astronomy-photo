@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component,} from "react";
 import DateInput from "./DateInput";
 import Photo from "./Photo";
 
@@ -10,34 +10,41 @@ const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 // Edits on this component are still in progress
 class Header extends Component {
 	state = {
-		date: moment(),
-		photo: <Photo />
+		date: new Date(),
+		photo: ''
 	}
 
-	formatDate = moment => {
-		let year = moment.year;
-		let month = moment.month + 1;
-		let day = moment.date;
-		return `${year}-${month}-${day}`;
-	}
+	formatDate = (date) => {
+		// converts date to yyyy-mm-dd
+		return date.toISOString().split('T')[0]
+	  }
 
 
 	changeDate = dateFromInput => {
 		this.setState({ date: dateFromInput });
-		this.getPhoto(this.formatDate(dateFromInput)); // getPhoto should be linked to a block of code that fetches the api photo
+		this.getPhotoByDate(this.formatDate(dateFromInput)); // getPhoto should be linked to a block of code that fetches the api photo
 	}
 
-	getPhoto = date => {
-    fetch(API_URL)
-      .then(response => response.json())
-      .then(photoData => this.setState({ photo: photoData }));
+	getPhotoByDate = date => {
+		fetch(`https://api.nasa.gov/planetary/apod?date=${date}&api_key=${API_KEY}`)
+		.then((response) => {
+		  return response.json()
+		})
+		.then((photoData) => {
+		  this.setState({ photo: photoData })
+		})
 	}
 
 	render() {
 		return (
 			<div className="header">
 				<h2 className="title"> Astronomy Photo of the Day</h2>
-				<DateInput changeDate={this.changeDate} />
+				<DateInput 
+					date={this.state.date} 
+					changeDate={this.changeDate} 
+					onClick={this.changeDate} 
+
+					/>
 			</div>
 		)
 	};
