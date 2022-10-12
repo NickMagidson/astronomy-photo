@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/astronomy-photo/static/css/main.305b7960.chunk.css",
-    "main.js": "/astronomy-photo/static/js/main.8dadca33.chunk.js",
-    "main.js.map": "/astronomy-photo/static/js/main.8dadca33.chunk.js.map",
+    "main.css": "/astronomy-photo/static/css/main.fb7ccba0.chunk.css",
+    "main.js": "/astronomy-photo/static/js/main.072acd43.chunk.js",
+    "main.js.map": "/astronomy-photo/static/js/main.072acd43.chunk.js.map",
     "runtime-main.js": "/astronomy-photo/static/js/runtime-main.a6f464a4.js",
     "runtime-main.js.map": "/astronomy-photo/static/js/runtime-main.a6f464a4.js.map",
-    "static/js/2.e9fccfc5.chunk.js": "/astronomy-photo/static/js/2.e9fccfc5.chunk.js",
-    "static/js/2.e9fccfc5.chunk.js.map": "/astronomy-photo/static/js/2.e9fccfc5.chunk.js.map",
+    "static/css/2.b36d5338.chunk.css": "/astronomy-photo/static/css/2.b36d5338.chunk.css",
+    "static/js/2.73249427.chunk.js": "/astronomy-photo/static/js/2.73249427.chunk.js",
+    "static/js/2.73249427.chunk.js.map": "/astronomy-photo/static/js/2.73249427.chunk.js.map",
     "index.html": "/astronomy-photo/index.html",
-    "static/css/main.305b7960.chunk.css.map": "/astronomy-photo/static/css/main.305b7960.chunk.css.map",
-    "static/js/2.e9fccfc5.chunk.js.LICENSE.txt": "/astronomy-photo/static/js/2.e9fccfc5.chunk.js.LICENSE.txt",
+    "static/css/2.b36d5338.chunk.css.map": "/astronomy-photo/static/css/2.b36d5338.chunk.css.map",
+    "static/css/main.fb7ccba0.chunk.css.map": "/astronomy-photo/static/css/main.fb7ccba0.chunk.css.map",
+    "static/js/2.73249427.chunk.js.LICENSE.txt": "/astronomy-photo/static/js/2.73249427.chunk.js.LICENSE.txt",
     "static/media/style2.css": "/astronomy-photo/static/media/Voyager Light Webfont.873d6860.woff",
     "static/media/video 1.9e52937b.mp4": "/astronomy-photo/static/media/video 1.9e52937b.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.a6f464a4.js",
-    "static/js/2.e9fccfc5.chunk.js",
-    "static/css/main.305b7960.chunk.css",
-    "static/js/main.8dadca33.chunk.js"
+    "static/css/2.b36d5338.chunk.css",
+    "static/js/2.73249427.chunk.js",
+    "static/css/main.fb7ccba0.chunk.css",
+    "static/js/main.072acd43.chunk.js"
   ]
 }
