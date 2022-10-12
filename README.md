@@ -7,13 +7,14 @@ Displays a different astronomy related picture everyday.
 
 ## Description
 
-This project uses NASA's APOD API to render a different image, description, title, and date everyday. Based off of the original version [here](https://apod.nasa.gov/apod/astropix.html).
+This project uses NASA's APOD API to render a different image, description, title, and date everyday. Based off of the original version [here](https://apod.nasa.gov/apod/astropix.html). Implemented a date picker dependency for data archive functionality.
 
 ## Getting Started
 
 ### Dependencies
 
 * react / react-dom
+* react-datepicker
 * gh-pages
 
 ### Executing program
